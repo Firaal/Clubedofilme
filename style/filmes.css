@@ -15,7 +15,12 @@ a {
     color: #cecece;
     text-decoration: none;
 }
-
+img {
+    transition: 0.3s;
+}
+img:hover {
+    scale: 1.05;
+}
 /*Secao Menu*/
 .container {
     display: flex;

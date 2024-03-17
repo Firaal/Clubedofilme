@@ -88,7 +88,7 @@ img:hover {
 }
 .filme-destaque {
     position: absolute;
-    margin: 80px 35px;
+    margin: 70px 35px;
     padding: 20px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -151,7 +151,7 @@ img:hover {
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 .filme-recente,
