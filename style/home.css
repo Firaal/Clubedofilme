@@ -35,6 +35,7 @@ img:hover {
 .logo {
     color: red;
     font-weight: bold;
+    font-size: 18px;
 }
 .menu {
     display: flex;
@@ -80,7 +81,7 @@ img:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 40%;
-    width: 100%;
+    min-width: 1200px;
     height: 50vh;
     margin: 20px auto;
     color: white;
@@ -122,13 +123,13 @@ img:hover {
 }
 .number {
     position: absolute;
-    font-size: 150px;
-    left: -55px;
-    top: -20px;
+    font-size: 200px;
+    left: -80px;
+    top: -55px;
     z-index: -1;
 }
 .filme:first-child .number {
-    left: -30px;
+    left: -40px;
 }
 .filme img {
     width: 100%;

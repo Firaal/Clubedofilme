@@ -69,7 +69,7 @@ a {
     color: #cecece;
 }
 
-.filme-modelo {
+.serie-modelo {
     display: flex;
     align-items: start;
     gap: 30px;
@@ -77,42 +77,42 @@ a {
     margin: 20px auto 80px;
     color: #cecece;
 }
-.filme-modelo__img {
+.serie-modelo__img {
     height: 550px;
 }
-.filme-modelo__titulo {
+.serie-modelo__titulo {
     color: white;
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.filme-modelo__info {
+.serie-modelo__info {
     margin-bottom: 20px;
 }
-.filme-modelo__ano {
+.serie-modelo__ano {
     margin-right: 20px;
 }
-.filme-modelo__elenco {
+.serie-modelo__elenco {
     margin-bottom: 50px;
 }
-.filme-modelo__tipo {
+.serie-modelo__tipo {
     color: #232323;
     background-color: #cecece;
     padding: 5px 20px;
     border-radius: 50px;
     font-style: italic;
 }
-.filme-modelo__sinopse {
+.serie-modelo__sinopse {
     margin: 50px 0px;
 }
-.filme-modelo__trailer {
+.serie-modelo__trailer {
     font-size: 20px;
     background-color: #232323;
     padding: 20px;
     border-radius: 5px;
     transition: 0.2s;
 }
-.filme-modelo__trailer:hover {
+.serie-modelo__trailer:hover {
     color: #232323;
     background-color: #cecece;
 }
